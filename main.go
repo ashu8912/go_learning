@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/ashu8912/go-learning/pkg/show_defer"
 )
 func evaluateSomething(arg string){
    fmt.Println("Evaluating something")
