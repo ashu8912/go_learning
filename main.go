@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+
+	sample "github.com/ashu8912/go_learning/pkg/deferbehaviour"
 )
-func evaluateSomething(arg string){
+func evaluateSomething(arg string) string{
    fmt.Println("Evaluating something")
 	return arg
 }
@@ -12,5 +14,5 @@ func main(){
 	 defer fmt.Println(i)
  }
 
- defer show_defer.ShowDeferBehaviour(evaluateSomething("Ashu"))
+ defer sample.ShowDeferBehaviour(evaluateSomething(("ashu ghildiyal"))
 }
